@@ -5,21 +5,21 @@ class PersonCheck
 {    
     static void Main(string[] args)
     {
-        string name = "Ваше имя?";
-        string age = "Ваш возраст?";
-        string zodiac = "Ваш знак зодиака?";
-        string profession = "Ваша профессия?";
+        string name;
+        string age;
+        string zodiacSign;
+        string profession;
 
-        Console.WriteLine(name);
+        Console.WriteLine("Ваше имя?");
         name = Console.ReadLine();
-        Console.WriteLine(age);
+        Console.WriteLine("Ваш возраст?");
         age = Console.ReadLine();
-        Console.WriteLine(zodiac);
-        zodiac = Console.ReadLine();
-        Console.WriteLine(profession);
+        Console.WriteLine("Ваш знак зодиака?");
+        zodiacSign = Console.ReadLine();
+        Console.WriteLine("Ваша профессия?");
         profession = Console.ReadLine();
 
-        Console.WriteLine("Вас зовут {0}, Вам {1}, Вы {2} и Ваша профессия {3}", name, age, zodiac, profession);
+        Console.WriteLine("Вас зовут {0}, Вам {1}, Вы {2} и Ваша профессия {3}", name, age, zodiacSign, profession);
         Console.Read();
     }
 }
