@@ -20,7 +20,7 @@ class PersonCheck
         profession = Console.ReadLine();
 
         Console.WriteLine("Вас зовут {0}, Вам {1}, Вы {2} и Ваша профессия {3}", name, age, zodiacSign, profession);
-        Console.Read();
+        Console.ReadKey();
     }
 }
 
